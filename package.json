@@ -1,0 +1,17 @@
+{
+  "name": "overdub",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Overdub — record a phrase, loop it, layer more takes on top, trim an intro/outro, export a finished track. A companion app for DnDash, launched from its Tools → Music Library.",
+  "author": "daniel.petre",
+  "type": "module",
+  "main": "electron/main.cjs",
+  "scripts": {
+    "check": "node tools/check.mjs",
+    "test": "node --test \"tests/unit/**/*.test.js\"",
+    "electron": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^44.2.0"
+  }
+}
